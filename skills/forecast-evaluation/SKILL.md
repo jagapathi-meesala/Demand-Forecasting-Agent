@@ -1,3 +1,8 @@
+---
+name: forecast-evaluation
+description: Evaluate demand forecasts using standard forecasting error metrics.
+---
+
 # Forecast Evaluation Skill
 
 ## Purpose

@@ -1,3 +1,8 @@
+---
+name: demand-forecasting
+description: Forecast product demand from historical demand observations using deterministic forecasting methods.
+---
+
 # Demand Forecasting Skill
 
 ## Purpose
