@@ -1,0 +1,10 @@
+name: forecast-demand
+description: Produce a deterministic moving-average baseline forecast from historical demand observations.
+input_schema:
+  type: object
+  required: [observations, horizon]
+  properties:
+    observations:
+      type: array
+    horizon:
+      type: integer

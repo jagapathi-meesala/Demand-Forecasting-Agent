@@ -1,0 +1,8 @@
+name: validate-demand-data
+description: Validate timestamped demand observations for completeness, type safety, and usable history.
+input_schema:
+  type: object
+  required: [observations]
+  properties:
+    observations:
+      type: array

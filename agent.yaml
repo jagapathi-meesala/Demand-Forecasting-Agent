@@ -1,0 +1,14 @@
+spec_version: "0.1.0"
+name: demand-forecasting-agent
+version: 1.0.0
+description: Demand forecasting agent for validating time-series data, generating baseline forecasts, and evaluating forecast accuracy.
+license: MIT
+skills:
+  - demand-forecasting
+  - forecast-evaluation
+tools:
+  - validate-demand-data
+  - forecast-demand
+  - evaluate-forecast
+runtime:
+  timeout: 120

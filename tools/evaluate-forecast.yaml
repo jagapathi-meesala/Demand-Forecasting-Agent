@@ -1,0 +1,10 @@
+name: evaluate-forecast
+description: Calculate MAE, RMSE, and MAPE for aligned actual and forecast series.
+input_schema:
+  type: object
+  required: [actual, forecast]
+  properties:
+    actual:
+      type: array
+    forecast:
+      type: array
